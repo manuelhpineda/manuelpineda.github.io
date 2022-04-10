@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       <HeroWrap>
         <Container max={996}>
-          <Heading>
+          <Heading as={"h1"}>
             Hey, I’m Manuel! <br />{" "}
             <Span> A developer with a growing passion for design</Span>
           </Heading>

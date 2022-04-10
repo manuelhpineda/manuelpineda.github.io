@@ -51,7 +51,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`poppins`, `IBM Plex Mono`],
+        fonts: [`poppins\:300,400,500`, `IBM Plex Mono\:500,600,700`],
         display: "swap",
       },
     },

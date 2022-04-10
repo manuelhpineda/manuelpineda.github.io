@@ -16,7 +16,7 @@ const BaseStyles = createGlobalStyle`
   h1, h2, h3, h4, h5 {
     font-family: ${theme.fonts.heading};
     margin: 3rem 0 1.38rem;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 1.3;
   }
 
