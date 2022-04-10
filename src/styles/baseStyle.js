@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
-import theme from "../theme";
+
+import theme from "theme";
 
 const BaseStyles = createGlobalStyle`
   * {
@@ -11,9 +12,12 @@ const BaseStyles = createGlobalStyle`
   body, html {
     font-size: 16px;
     font-family: ${theme.fonts.body};
+    color: ${theme.colors.text};
+    background-color: ${theme.colors.backgroundMain};
   }
 
   h1, h2, h3, h4, h5 {
+    color: ${theme.colors.heading};
     font-family: ${theme.fonts.heading};
     margin: 3rem 0 1.38rem;
     font-weight: bold;
