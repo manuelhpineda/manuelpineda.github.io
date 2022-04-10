@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  border: 1px solid red;
+  width: min(100% - 20px, 900px);
+  margin-inline: auto;
 `;

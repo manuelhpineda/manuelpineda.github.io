@@ -46,5 +46,12 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`poppins`, `IBM Plex Mono`],
+        display: "swap",
+      },
+    },
   ],
 };
