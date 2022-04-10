@@ -1,6 +1,6 @@
 const typography = {
   fonts: {
-    heading: "",
+    heading: "IBM Plex Mono",
     body: "poppins",
   },
 };

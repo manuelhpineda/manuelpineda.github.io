@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  border: 1px solid red;
-  width: min(100% - 20px, 900px);
+  width: min(100% - 20px, ${({ max }) => (max ? `${max}px` : `1200px`)});
   margin-inline: auto;
 `;

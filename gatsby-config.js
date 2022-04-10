@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   pathPrefix: "/manuelpineda.github.io",
   siteMetadata: {
@@ -53,5 +55,6 @@ module.exports = {
         display: "swap",
       },
     },
+    "gatsby-plugin-root-import",
   ],
 };

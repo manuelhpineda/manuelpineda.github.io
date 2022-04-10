@@ -1,14 +1,13 @@
 import * as React from "react";
-import Container from "../components/container";
 
-// markup
+import Layout from "layout";
+import Hero from "components/HomePage/Hero";
+
 const IndexPage = () => {
   return (
-    <main>
-      <Container>
-        <h1>Hello world</h1>
-      </Container>
-    </main>
+    <Layout>
+      <Hero />
+    </Layout>
   );
 };
 
