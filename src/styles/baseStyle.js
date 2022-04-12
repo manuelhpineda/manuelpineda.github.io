@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-import theme from "theme";
+import theme, { devices } from "theme";
 
 const BaseStyles = createGlobalStyle`
   * {
@@ -26,22 +26,61 @@ const BaseStyles = createGlobalStyle`
 
   h1 {
     margin-top: 0;
-    font-size: 3.052rem;
+    font-size: 1.802rem;
   }
 
-  h2 {font-size: 2.441rem;}
+  h2 {
+    font-size: 1.602rem;
+  }
 
-  h3 {font-size: 1.953rem;}
+  h3 {
+    font-size: 1.424rem;
+  }
 
-  h4 {font-size: 1.563rem;}
+  h4 {
+    font-size: 1.266rem;
+  }
 
-  h5 {font-size: 1.25rem;}
+  h5 {
+    font-size: 1.125rem;
+  }
 
-  small, .text_small {font-size: 0.8rem;}
+  small, .text_small {
+    font-size: 0.8rem;
+  }
 
   ul {
     list-style: none;
   }
+
+  button {
+    cursor: pointer;
+  }
+
+
+  ${devices.md} {
+    h1 {
+      margin-top: 0;
+      font-size: 3.052rem;
+    }
+
+    h2 {
+      font-size: 2.441rem;
+    }
+
+    h3 {
+      font-size: 1.953rem;
+    }
+
+    h4 {
+      font-size: 1.563rem;
+    }
+
+    h5 {
+      font-size: 1.25rem;
+    }
+  }
+
 `;
 
 export default BaseStyles;
