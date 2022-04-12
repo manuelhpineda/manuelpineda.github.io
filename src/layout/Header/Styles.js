@@ -11,7 +11,7 @@ export const StyledHeader = styled.header`
 `;
 
 export const Nav = styled.nav`
-  width: min(100% - 20px, 1200px);
+  width: min(100% - 30px, 1200px);
   display: flex;
   justify-content: space-between;
 `;
@@ -23,7 +23,7 @@ export const Logo = styled.a``;
 export const MenuIcon = styled.button`
   display: block;
   cursor: pointer;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   background-color: transparent;
   border: none;
 
@@ -47,7 +47,7 @@ export const NavWrapper = styled.div`
 
   ${devices.md} {
     position: static;
-    width: min(100% - 10px, 400px);
+    width: min(100% - 20px, 400px);
     height: 100%;
     padding: 0;
     transform: translateX(0);
@@ -61,7 +61,7 @@ export const CloseButton = styled.button`
   right: 40px;
   background-color: transparent;
   border: none;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 
   ${devices.md} {
     display: none;
