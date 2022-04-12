@@ -73,16 +73,23 @@ export const NavList = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  font-size: 1.7rem;
 
   ${devices.md} {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    font-size: 1rem;
   }
 `;
 
 export const NavLinks = styled.li`
   padding: 2px;
+  margin-bottom: 2rem;
+
+  ${devices.md} {
+    margin-bottom: 0;
+  }
 `;
 
 export const NavLink = styled.a`
